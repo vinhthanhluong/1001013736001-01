@@ -1,0 +1,106 @@
+/*==========================================================================*/
+/*//////////////////////////////////////////////////////////////////////////*/
+/*//////                                                              //////*/
+/*//////                  © Branding Technology inc.                  //////*/
+/*//////                                                              //////*/
+/*//////////////////////////////////////////////////////////////////////////*/
+/*                                                                          */
+/*    base.css  --> スタイルの初期設定を行うため、変更しないで下さい。      */
+/*    fonts.css --> フォントの初期設定を行うため、変更しないで下さい。      */
+/*                                                                          */
+/*==========================================================================*/
+/*==========================================================================*/
+/*                           Common-Setting                                 */
+/*==========================================================================*/
+/* 基本タグのフォントサイズを指定（12px -> 120% or 1.2em ） */
+
+@media only screen and (min-width: 751px) and (max-width: 1560px) {
+}
+@media only screen and (min-width: 751px) and (max-width: 1440px) {
+}
+@media only screen and (min-width: 751px) and (max-width: 1200px) {
+	/* .container,
+	.under #content {
+		padding-left: 8px;
+		padding-right: 8px;
+	} */
+}
+
+@media only screen and (min-width: 751px) {
+	.sp {
+		display: none !important;
+	}
+	a:hover,
+	a:active {
+		color: #006baf;
+		text-decoration: none;
+	}
+	a:hover img {
+		opacity: 0.7;
+	}
+
+	a[target="_blank"]:hover img,
+	a.noHover:hover img {
+		opacity: 1;
+	}
+	[class*="logo"] a:hover img {
+		opacity: 1;
+	}
+	#totop a:hover img {
+		opacity: 1;
+	}
+
+	.in-social,
+	.hicon {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	input,
+	button,
+	textarea,
+	select,
+	p,
+	blockquote,
+	th,
+	td,
+	pre,
+	address,
+	li,
+	dt,
+	dd {
+		font-size: 140%;
+	}
+	#wrapper {
+		min-width: 100%;
+	}
+	.container {
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.pc {
+		display: none !important;
+	}
+
+	/***********************Content********************************/
+
+	/*******************************************************/
+	/******************Footer********************************/
+}
+
+@media only screen and (max-width: 530px) {
+}
+
+@media only screen and (max-width: 475px) {
+}
+
+@media only screen and (max-width: 375px) {
+}
